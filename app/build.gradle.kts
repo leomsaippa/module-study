@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import utils.createFabricProperties
+//import utils.createFabricProperties
 import dependencies.Dependencies
 import dependencies.DebugDependencies
 import dependencies.AnnotationProcessorsDependencies
@@ -34,7 +34,7 @@ plugins {
     id(BuildPlugins.NAVIGATION_SAFE_ARGS)
     id(BuildPlugins.JACOCO)
     id(BuildPlugins.GRAPH_GENERATOR)
-    id(BuildPlugins.FABRIC)
+//    id(BuildPlugins.FABRIC)
 }
 
 allOpen {
@@ -74,7 +74,7 @@ android {
 
             isMinifyEnabled = BuildTypeRelease.isMinifyEnabled
             isTestCoverageEnabled = BuildTypeRelease.isTestCoverageEnabled
-            buildConfigBooleanField("ENABLE_CRASHLYTICS", BuildTypeRelease.isCrashlyticsEnabled)
+//            buildConfigBooleanField("ENABLE_CRASHLYTICS", BuildTypeRelease.isCrashlyticsEnabled)
         }
 
         getByName(BuildType.DEBUG) {
@@ -83,7 +83,7 @@ android {
             isMinifyEnabled = BuildTypeDebug.isMinifyEnabled
             isTestCoverageEnabled = BuildTypeDebug.isTestCoverageEnabled
 
-            buildConfigBooleanField( "ENABLE_CRASHLYTICS", BuildTypeDebug.isCrashlyticsEnabled)
+//            buildConfigBooleanField( "ENABLE_CRASHLYTICS", BuildTypeDebug.isCrashlyticsEnabled)
         }
     }
 
@@ -146,7 +146,7 @@ junitJacoco {
 }
 
 afterEvaluate {
-    createFabricProperties(this)
+//    createFabricProperties(this)
 }
 
 dependencies {
@@ -159,7 +159,7 @@ dependencies {
     implementation(Dependencies.NAVIGATION_FRAGMENT)
     implementation(Dependencies.TIMBER)
     implementation(Dependencies.LOGGING)
-    implementation(Dependencies.CRASHLYTICS)
+//    implementation(Dependencies.CRASHLYTICS)
     implementation(Dependencies.PLAY_CORE)
     implementation(Dependencies.DAGGER)
 

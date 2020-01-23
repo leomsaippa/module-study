@@ -17,14 +17,14 @@
 package com.vmadalin.android
 
 import android.content.Context
-import com.crashlytics.android.Crashlytics
+//import com.crashlytics.android.Crashlytics
 import com.google.android.play.core.splitcompat.SplitCompatApplication
 import com.vmadalin.android.di.DaggerAppComponent
 import com.vmadalin.core.di.CoreComponent
 import com.vmadalin.core.di.DaggerCoreComponent
 import com.vmadalin.core.di.modules.ContextModule
 import com.vmadalin.core.utils.ThemeUtils
-import io.fabric.sdk.android.Fabric
+//import io.fabric.sdk.android.Fabric
 import javax.inject.Inject
 import kotlin.random.Random
 import timber.log.Timber
@@ -62,7 +62,7 @@ class SampleApp : SplitCompatApplication() {
     override fun onCreate() {
         super.onCreate()
         initTimber()
-        initFabric()
+//        initFabric()
         initCoreDependencyInjection()
         initAppDependencyInjection()
         initRandomNightMode()
@@ -101,15 +101,19 @@ class SampleApp : SplitCompatApplication() {
             Timber.plant(Timber.DebugTree())
         }
     }
+/*
 
-    /**
+    */
+/**
      * Initialize crash report library Fabric on non debug build.
-     */
+     *//*
+
     private fun initFabric() {
         if (!BuildConfig.DEBUG) {
-            Fabric.with(this, Crashlytics())
+//            Fabric.with(this, Crashlytics())
         }
     }
+*/
 
     /**
      * Initialize random nightMode to make developer aware of day/night themes.

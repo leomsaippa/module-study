@@ -22,13 +22,13 @@ interface BuildType {
     }
 
     val isMinifyEnabled: Boolean
-    val isCrashlyticsEnabled: Boolean
+//    val isCrashlyticsEnabled: Boolean
     val isTestCoverageEnabled: Boolean
 }
 
 object BuildTypeDebug : BuildType {
     override val isMinifyEnabled = false
-    override val isCrashlyticsEnabled = false
+//    override val isCrashlyticsEnabled = false
     override val isTestCoverageEnabled = true
 
     const val applicationIdSuffix = ".debug"
@@ -37,6 +37,6 @@ object BuildTypeDebug : BuildType {
 
 object BuildTypeRelease : BuildType {
     override val isMinifyEnabled = true
-    override val isCrashlyticsEnabled = true
+//    override val isCrashlyticsEnabled = true
     override val isTestCoverageEnabled = false
 }

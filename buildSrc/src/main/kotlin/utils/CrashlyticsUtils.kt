@@ -20,9 +20,9 @@ import org.gradle.api.Project
 import java.io.File
 import java.lang.Exception
 
-private const val FABRIC_PROPERTIES_FILE_NAME = "app/fabric.properties"
-private const val FABRIC_API_KEY_PROPERTY_NAME = "fabric.key"
-private const val FABRIC_API_SECRET_PROPERTY_NAME = "fabric.secret"
+//private const val FABRIC_PROPERTIES_FILE_NAME = "app/fabric.properties"
+//private const val FABRIC_API_KEY_PROPERTY_NAME = "fabric.key"
+//private const val FABRIC_API_SECRET_PROPERTY_NAME = "fabric.secret"
 
 /**
  * Util to create `fabric.properties` file using the declared values on
@@ -30,6 +30,7 @@ private const val FABRIC_API_SECRET_PROPERTY_NAME = "fabric.secret"
  *
  * @param project the project reference
  */
+/*
 fun createFabricProperties(project: Project) {
     val fabricPropertiesFile = project.rootProject.file(FABRIC_PROPERTIES_FILE_NAME)
     try {
@@ -51,3 +52,4 @@ fun createFabricProperties(project: Project) {
         )
     }
 }
+*/

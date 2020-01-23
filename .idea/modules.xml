@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="kotlin-sample-app/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/characters_favorites/characters_favorites.iml" filepath="$PROJECT_DIR$/.idea/modules/features/characters_favorites/characters_favorites.iml" group="kotlin-sample-app/features/characters_favorites" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/characters_list/characters_list.iml" filepath="$PROJECT_DIR$/.idea/modules/features/characters_list/characters_list.iml" group="kotlin-sample-app/features/characters_list" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/commons.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/commons.iml" group="kotlin-sample-app/commons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="kotlin-sample-app/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/features.iml" group="kotlin-sample-app/features" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/home.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/home.iml" group="kotlin-sample-app/features/home" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-sample-app.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-sample-app.iml" group="kotlin-sample-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-sample-app_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-sample-app_buildSrc.iml" group="kotlin-sample-app/kotlin-sample-app_buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/libraries.iml" group="kotlin-sample-app/libraries" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/test_utils/test_utils.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/test_utils/test_utils.iml" group="kotlin-sample-app/libraries/test_utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/ui/ui.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/ui/ui.iml" group="kotlin-sample-app/commons/ui" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/views/views.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/views/views.iml" group="kotlin-sample-app/commons/views" />
+    </modules>
+  </component>
+</project>
