@@ -58,19 +58,19 @@ android {
         testInstrumentationRunnerArguments = BuildAndroidConfig.TEST_INSTRUMENTATION_RUNNER_ARGUMENTS
     }
 
-    signingConfigs {
-        create(BuildType.RELEASE) {
-            keyAlias = getLocalProperty("signing.key.alias")
-            keyPassword = getLocalProperty("signing.key.password")
-            storeFile = file(getLocalProperty("signing.store.file"))
-            storePassword = getLocalProperty("signing.store.password")
-        }
-    }
+//    signingConfigs {
+//        create(BuildType.RELEASE) {
+//            keyAlias = getLocalProperty("signing.key.alias")
+//            keyPassword = getLocalProperty("signing.key.password")
+//            storeFile = file(getLocalProperty("signing.store.file"))
+//            storePassword = getLocalProperty("signing.store.password")
+//        }
+//    }
 
     buildTypes {
         getByName(BuildType.RELEASE) {
             proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
-            signingConfig = signingConfigs.getByName(name)
+//            signingConfig = signingConfigs.getByName(name)
 
             isMinifyEnabled = BuildTypeRelease.isMinifyEnabled
             isTestCoverageEnabled = BuildTypeRelease.isTestCoverageEnabled
